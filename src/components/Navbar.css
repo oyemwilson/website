@@ -1,0 +1,14 @@
+.navbar {
+  background-color: rgba(0, 0, 255, 0.917);
+}
+
+.navbar-brand, .nav-link {
+  color: white;
+}
+
+.active-nav-link,
+.nav-link:hover,
+.navbar-brand:hover {
+  color: white;
+  font-weight: 400;
+}

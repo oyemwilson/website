@@ -1,0 +1,51 @@
+
+#section-title {
+  text-align: center;
+  font-family: 'Tsukimi Rounded', sans-serif;
+  size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.project-description {
+  max-width: 300px;
+}
+
+.project-description h3 {
+  font-family: 'Tsukimi Rounded', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.project-description p {
+  font-size: 1rem;
+}
+
+.project-card {
+  border-top: 0.2rem solid;
+}
+
+.project-card img {
+  width: 30rem;
+}
+
+#visit-project-url {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.917);
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1100px) {
+  .project-card {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-card {
+    border-top: .3rem solid;
+  }
+}
